@@ -55,23 +55,23 @@ export function Hero() {
         Most bookkeeping software is accurate, but hard to use. We make the
         opposite trade-off, and hope you don’t get audited.
       </p> */}
-      <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="https://calendly.com/chinat/30min">Book a call with us</Button>
-        <Button
-          href="https://www.youtube.com/watch?v=X1B1jnD45sY&ab_channel=JohnsHopkinsUniversity"
-          variant="outline"
-          target="_blank"
-        >
-          <svg
-            aria-hidden="true"
-            className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current"
-          >
-            <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
-          </svg>
-          <span className="ml-3">Watch video</span>
+      <div className="mt-10 mb-10 flex justify-center gap-x-6">
+        <Button 
+          href="https://calendly.com/chinat/30min"
+          target="_blank">
+          Book a call with us
         </Button>
       </div>
-      <div className="mt-36 lg:mt-44">
+      <iframe 
+        width="1280" 
+        height="720" 
+        src="https://www.youtube.com/embed/X1B1jnD45sY" 
+        title="JHU Students Bring Lab Experience to Smartphones" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+      <div className="mt-10 lg:mt-24">
         <p className="font-display text-base text-slate-900">
           Trusted by these three institutions so far
         </p>
