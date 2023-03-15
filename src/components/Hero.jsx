@@ -62,16 +62,18 @@ export function Hero() {
           Book a call with us
         </Button>
       </div>
-      <iframe 
-        width="1280" 
-        height="720" 
-        src="https://www.youtube.com/embed/X1B1jnD45sY" 
-        title="JHU Students Bring Lab Experience to Smartphones" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
-      </iframe>
-      <div className="mt-10 lg:mt-24">
+      <div className="aspect-w-16 aspect-h-9">
+        <iframe 
+          width="1280" 
+          height="720" 
+          src="https://www.youtube.com/embed/X1B1jnD45sY" 
+          title="JHU Students Bring Lab Experience to Smartphones" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div className="mt-10 lg:mt-16">
         <p className="font-display text-base text-slate-900">
           Trusted by these three institutions so far
         </p>
