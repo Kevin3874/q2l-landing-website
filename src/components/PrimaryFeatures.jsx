@@ -11,7 +11,7 @@ import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 import screenshot3DModels from '@/images/screenshots/3DModels.png'
 import screenshotMinigames from '@/images/screenshots/targetedMinigames.jpeg'
-import screenshotAccessibility from '@/images/screenshots/accessibility.png'
+import screenshotAccessibility from '@/images/screenshots/Test.png'
 const features = [
   {
     title: 'Hyper-realistic 3D Models',
@@ -32,7 +32,7 @@ const features = [
           description:
           'Our app is available on both iOS and Android devices, making it easy for you to access from anywhere.',
           // image: screenshotPayroll,
-    image: screenshotAccessibility,
+          image: screenshotAccessibility,
   },
 ]
 // const features = [
@@ -83,7 +83,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Features for running your books"
+      aria-label="Features of Quest2Learn Modules"
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-16"
     >
       <Image
@@ -100,7 +100,7 @@ export function PrimaryFeatures() {
             Learn everything you need for virtual labs.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            We provide bespoke mixed reality modules that tailor for your learner needs.
+            We provide bespoke mixed reality modules that tailor towards your learner needs.
           </p>
         </div>
         <Tab.Group
@@ -158,7 +158,7 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[55rem]">
                       <Image
                         className="w-full"
                         src={feature.image}
