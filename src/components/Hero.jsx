@@ -73,7 +73,7 @@ export function Hero() {
           allowfullscreen>
         </iframe>
       </div>
-      <div className="mt-10 lg:mt-16">
+      <div className="mt-10 lg:mt-20 lg:mb-10">
         <p className="font-display text-base text-slate-900">
           Trusted by these three institutions so far
         </p>
