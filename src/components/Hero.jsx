@@ -55,7 +55,7 @@ export function Hero() {
         Most bookkeeping software is accurate, but hard to use. We make the
         opposite trade-off, and hope you don’t get audited.
       </p> */}
-      <div className="mt-10 mb-10 flex justify-center gap-x-6">
+      <div className="mt-10 mb-14 flex justify-center gap-x-6">
         <Button 
           href="https://calendly.com/chinat/30min"
           target="_blank">
@@ -85,7 +85,7 @@ export function Hero() {
             [
               { name: 'Johns Hopkins', logo: logoJHU },
               { name: 'CUHK', logo: logoCUHK },
-              { name: 'UCLA', logo: logoUCLA },
+              /*{ name: 'UCLA', logo: logoUCLA },*/
             ],
             // [
             //   { name: 'Mirage', logo: logoMirage },
