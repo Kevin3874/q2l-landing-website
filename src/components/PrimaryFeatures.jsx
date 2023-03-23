@@ -16,7 +16,7 @@ const features = [
   {
     title: 'Hyper-realistic 3D Models',
     description:
-      'Our 3D models are so realistic, you might forget you are in a virtual world.',
+      'Our hand-measured 3D models are so realistic, you just might forget you are in a virtual world.',
           // image: screenshotPayroll,
           image: screenshot3DModels,
         },
@@ -30,7 +30,7 @@ const features = [
         {
           title: 'High Accessibility',
           description:
-          'Our app is available on both iOS and Android devices, making it easy for you to access from anywhere.',
+          'Our app is on both iOS and Android devices, making it easy for you to access from anywhere.',
           // image: screenshotPayroll,
           image: screenshotAccessibility,
   },
@@ -153,12 +153,12 @@ export function PrimaryFeatures() {
                 {features.map((feature) => (
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
-                      <div className="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
+                      <div className="absolute -inset-x-4 top-[-6.5rem] bottom-[-2.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
                       <p className="relative mx-auto max-w-2xl text-base text-white sm:text-center">
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[55rem]">
+                    <div className="mt-10 w-fill overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[55rem]">
                       <Image
                         className="w-full"
                         src={feature.image}

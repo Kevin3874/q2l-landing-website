@@ -21,7 +21,7 @@ const testimonials = [
     },
     {
       content:
-        'As somsone who finds text-based prelabs to be boring, the interactive nature of Quest2Learn makes learning the lab material much more engaging than traditional lectures or textbooks.',
+        'As someone who finds text-based prelabs to be boring, the interactive nature of Quest2Learn makes learning the lab material much more engaging than traditional lectures or textbooks.',
       author: {
         name: 'Alana Deo',
         role: 'Undergraduate Student at UCSB',
