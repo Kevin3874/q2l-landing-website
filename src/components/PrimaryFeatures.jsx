@@ -13,10 +13,10 @@ import screenshot3DModels from '@/images/screenshots/3DModels.png'
 import screenshotMinigames from '@/images/screenshots/targetedMinigames.jpeg'
 import screenshotAccessibility from '@/images/screenshots/Test.png'
 const features = [
-  {
-    title: 'Hyper-realistic 3D Models',
-    description:
-      'Our hand-measured 3D models are so realistic, you just might forget you are in a virtual world.',
+        {
+          title: 'Hyper-realistic 3D Models',
+          description:
+          'Our hand-measured 3D models are so realistic, you just might forget you are in a virtual world.',
           // image: screenshotPayroll,
           image: screenshot3DModels,
         },
@@ -84,7 +84,7 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features of Quest2Learn Modules"
-      className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-16"
+      className="relative overflow-hidden bg-blue-600 pt-20 pb-14 sm:py-16"
     >
       <Image
         className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
