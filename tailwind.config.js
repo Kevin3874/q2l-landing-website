@@ -28,7 +28,7 @@ module.exports = {
         display: ['Lexend', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
-        '2xl': '40rem',
+        'md': '40rem',
       },
     },
   },
